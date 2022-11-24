@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/tesng-1.0.dtd">
+<suite name "Testing orangehrmlive">
+<test name="Sanity testing">
+<groups>
+    <run>
+        <include name ="Sanity"></include>
+    </run>
+</groups>
+<classes>
+    <class name ="TestsCases.LogInTest"/>
+    <class name ="TestsCases.logout"/>
+    <class name ="TestsCases.workShiftTest"/>
+</classes>
+</test>
+</suite>
